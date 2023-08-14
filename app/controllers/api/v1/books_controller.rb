@@ -10,6 +10,7 @@ module Api
         render json: @books
       end
 
+
       def show
         render json: @book
       end
